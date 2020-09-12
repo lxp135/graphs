@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>中国就业形势数据可视化</title>
+    <link rel="stylesheet" href="css/common.css">
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="../../assets/js/common.js"></script>
+</head>
+<script>
+    $(document).ready(function () {
+        var whei = $(window).width()
+        $("html").css({fontSize: whei / 20})
+        $(window).resize(function () {
+            $("html").css({fontSize: $(window).width() / 20})
+        });
+    });
+</script>
+<script type="text/javascript" src="js/echarts.min.js"></script>
+<script type="text/javascript" src="js/china.js"></script>
+<script type="text/JavaScript" src="js/employment.js"></script>
+<body>
+
+<div class="head">
+    <h1>中国就业形势数据实时可视化</h1>
+    <div class="weather"><span>数据统计范围 2018年8月 - 至今</span></div>
+</div>
+<div class="mainbox">
+    <ul class="clearfix">
+        <li>
+            <div class="boxall" style="height: 3.2rem">
+                <div class="alltitle">工作机会行业TOP10排行</div>
+                <div class="allnav" id="echart1"></div>
+                <div class="boxfoot"></div>
+            </div>
+            <div class="boxall" style="height: 3.2rem">
+                <div class="alltitle">工作机会城市TOP10排行</div>
+                <div class="allnav" id="echart2"></div>
+                <div class="boxfoot"></div>
+            </div>
+            <div class="boxall" style="height: 3.2rem">
+                <div style="height:100%; width: 100%;">
+                    <div class="sy" id="fb1"></div>
+                    <div class="sy" id="fb2"></div>
+                </div>
+                <div class="boxfoot">
+
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="bar">
+                <div class="barbox">
+                    <ul class="clearfix">
+                        <li id="titleCount" class="pulll_left counter"></li>
+                        <li id="companyCount" class="pulll_left counter"></li>
+                    </ul>
+                </div>
+                <div class="barbox2">
+                    <ul class="clearfix">
+                        <li class="pulll_left">统计职位数量</li>
+                        <li class="pulll_left">统计企业数量</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="map">
+                <div class="map1"><img src="picture/lbx.png"></div>
+                <div class="map2"><img src="picture/jt.png"></div>
+                <div class="map3"><img src="picture/map.png"></div>
+                <div class="map4" id="map_1"></div>
+            </div>
+        </li>
+        <li>
+            <div class="boxall" style="height:3.4rem">
+                <div class="alltitle">工资城市TOP10排行</div>
+                <div class="allnav" id="echart4"></div>
+                <div class="boxfoot"></div>
+            </div>
+            <div class="boxall" style="height: 3.2rem">
+                <div class="alltitle">工资行业TOP10排行</div>
+                <div class="allnav" id="echart5"></div>
+                <div class="boxfoot"></div>
+            </div>
+            <div class="boxall" style="height: 3rem">
+                <div class="allnav" id="echart6" style="margin-top: 0.2rem"></div>
+                <div class="boxfoot"></div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="back"></div>
+
+</body>
+</html>
