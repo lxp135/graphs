@@ -7,5 +7,5 @@
 
 ## License
 本开源项目推行过996工作制度的企业不得使用
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
-[![LICENSE](https://img.shields.io/badge/license-NPL%20(The%20996%20Prohibited%20License)-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
+[![996.icu](https://github.com/lxp135/graphs/blob/master/license/link-996.icu-red.svg)](https://996.icu)
+[![LICENSE](https://github.com/lxp135/graphs/blob/master/license/license-NPL%20(The%20996%20Prohibited%20License)-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
